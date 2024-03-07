@@ -13632,7 +13632,7 @@ textarea.form-control-lg {
 }
 
 .logo {
-  background: url(/images/img/logo.png);
+  background: url('https://j-mingyan.github.io/Masyale.github.io//images/img/logo.png');
   width: 120px;
   height: 100px;
   display: block;
