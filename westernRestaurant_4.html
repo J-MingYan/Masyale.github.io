@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/img/iocn.png">
+  <title>菜單介紹 - Masyale</title>
+
+  <meta name="description" content="為您提供營養滿分的飲食，迫不及待要大快朵頤了嗎? 請快到 Masyale 官網訂餐吧!" />
+  <meta name="keywords" content="Masyale,Masyale官網,Masyale西餐廳,Masyale菜單" />
+  <meta name="author" content="江諺" />
+
+  <meta property="og:title" content="Masyale西餐廳" />
+  <meta property="og:description" content="為您提供營養滿分的飲食，請快到 Masyale 官網訂餐吧!" />
+  <meta property="og:type" content="website" />
+  <!-- <meta property="og:url" content="https://www.XXXXXXX.com" /> -->
+  <!-- <meta property="og:image" content="https://XXX.com/XX/XX/image/XX.png" /> -->
+  <meta property="og:site-name" content="Masyale西餐廳" />
+  <meta property="og:locale" content="zh_TW" />
+
+  <!--Font Awesome的-->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> -->
+  
+  <!--Swiper的-->
+  <!-- <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  <!--Lightbox的-->
+  <!-- <link rel="stylesheet" href="css/lightbox.css"> -->
+  
+  <!--pure.css-->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous"> -->
+
+  <!--Bootstrap5 css CDN-->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"rel="stylesheet"integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
+
+  <!-- Bootstrap5 Icons CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <!-- 自己ＣＳＳ -->
+  <link rel="stylesheet" href="./css/all-Bootstrap-Sass.css">
+  
+<style>
+    /* :root
+      {
+      --bs-font-sans-serif: system-ui,-apple-system,'Microsoft JhengHei',微軟正黑體,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+      } */
+  body
+  {
+    padding-top: 115px;
+  }
+  .swiper
+  {
+    max-width: 100%;
+    height: 100%;
+  }
+  /* 跑馬燈 */
+  .swiper-wrapper2 {
+    transition-timing-function: linear;
+  }
+  /* 解決在 ios上問題 */
+  .overflow-hidden{
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+  }
+  /* 消除 */
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+</style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light position-fixed w-100 top-0" style="background-color: #b0d6f0; z-index: 1021;">
+    <div class="container">
+      <!-- logo -->
+      <h1 class="mb-0">
+        <a class="navbar-brand logo fw-bold fs-2 text-center me-0 " href="./westernRestaurant_1.html">Masyale</a>
+      </h1>
+
+      <!-- 漢堡按鈕 -->
+      <button class="navbar-toggler border-0 all-clos" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="all-bar"></span>
+        <span class="all-bar"></span>
+        <span class="all-bar"></span>
+      </button>
+
+      <!-- 下拉選單 -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item mx-auto p-2">
+            <a class="nav-link all-links_hover fs-5" aria-current="page" href="./westernRestaurant_3.html">經營理念</a>
+          </li>
+          <li class="nav-item mx-auto p-2">
+            <a class="nav-link all-links_hover fs-5" href="./westernRestaurant_4.html">菜單介紹</a>
+          </li>
+          <li class="nav-item mx-auto p-2">
+            <a class="nav-link all-links_hover fs-5" href="./westernRestaurant_2.html">餐廳環境</a>
+          </li>
+          <li class="nav-item mx-auto p-2">
+            <!-- <a class="nav-link all-links_hover fs-5 position-relative" href="#offcanvasExample" data-bs-toggle="offcanvas" role="button" aria-controls="offcanvasExample"> -->
+            <a class="nav-link all-links_hover fs-5 position-relative" href="#" role="button" id="offcanvasRightLabel">
+              <i class="bi bi-cart4"></i>購物車
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" id="NuM">
+                0
+                <span class="visually-hidden">unread messages</span>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Offcanvas購物車 show -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header text-white" style="background-color: #7bbfe1;">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">已選購餐點</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h5 class="mb-5 text-center" id="shoppingCart_title">
+              購物車內沒有商品，趕快去逛逛吧!
+            </h5>
+            <a class="btn btn-info btn-lg w-100" href="./westernRestaurant_4.html" id="shoppingCart_link">
+              立即點餐
+            </a>
+            <div class="row align-items-center g-0 mb-3 LIST" id="shoppingCart_content">
+              <!-- <div class="col-4">
+                <img src="./images/img-menu/Americano.jpg" alt="..." class="img-fluid">
+              </div>
+              <div class="col-4 text-center">
+                <p>美式咖啡</p>
+                <small class="text-secondary"> x 1</small>
+              </div>
+              <div class="col-3">
+                <small class="text-secondary"> NT$ 80</small>
+              </div>
+              <div class="col-1 px-0 mb-0">
+                <button type="button" class="btn  shadow-none  border-0 p-0" id="delCartBtn">
+                  <i class="bi bi-trash-fill text-danger"></i>
+                </button>
+              </div> -->
+            </div>
+          </div>
+          <div class="col-12 d-none" id="shoppingCart_account">
+            <p class="text-end fs-5  fw-bold mb-3">總金額: NT$<span id="totalPrice">0</span>元</p>
+            <div class="cartBtn-group d-flex justify-content-between">
+              <a href="#offcanvasExample"  class="btn btn-info w-50 me-2" data-bs-toggle="offcanvas" role="button" aria-controls="offcanvasExample" id="continueShopping">
+                繼續選購
+              </a>
+              <a href="#" class="btn btn-success  w-50" id="goBillPlease">
+                前往結帳
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--banner 背景圖 -->
+  <header id="banner">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 bg-img-size_cover bg-attachment-fixed" style="background-image: url('./images/img/banner.jpg'); height: 500px;" id="profiles">
+          <div class="h-100 d-flex justify-content-center align-items-center">
+            <h3 class="fs-1 fw-bold"><span id="typing"></span></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 菜單選項 -->
+  <section class="sticky-top" style="background-color:rgb(239, 233, 233); top: 116px;" id="menuoPtions">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 py-3 d-flex justify-content-center">
+          <div>
+            <a class="btn btn-lg btn-text-custom-b0d6f0 active" href="#" role="button" id="all">全部</a>
+            <a class="btn btn-lg btn-text-custom-b0d6f0" href="#" role="button" id="saLad">沙拉</a>
+            <a class="btn btn-lg btn-text-custom-b0d6f0" href="#" role="button" id="appeTlzer">開胃菜</a>
+            <a class="btn btn-lg btn-text-custom-b0d6f0" href="#" role="button" id="soUp">湯品</a>
+            <a class="btn btn-lg btn-text-custom-b0d6f0 mt-1 mt-md-0" href="#" role="button" id="malnCourse">主菜</a>
+            <a class="btn btn-lg btn-text-custom-b0d6f0 mt-1 mt-md-0" href="#" role="button" id="dessErt">甜點</a>
+            <a class="btn btn-lg btn-text-custom-b0d6f0 mt-1 mt-md-0" href="#" role="button" id="beveRage">飲品</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 菜單介紹 -->
+  <section class="py-3" id="menuIntroduction">
+    <div class="container">
+      <div class="fs-5 mb-3">
+        <a href="./westernRestaurant_1.html" class="link-info">首頁</a> ／
+        <a href="./westernRestaurant_4.html" class="link-info">菜單介紹</a> ／ <span>餐點介紹</span>
+      </div>
+      <div class="row mb-3  row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col saLad_switch" style="cursor: pointer;">
+          <div class="card border-0 shadow h-100">
+            <div class="overflow-hidden position-relative menuLink" style="border-radius: 10px 10px 0 0  !important;">
+              <img src="./images/img-menu/CaesarSalad.jpg" class="card-img-top object-fit-cover img-transform-scale" alt="..." style="height: 250px;">
+              <div class="all-hover-divIcons">
+                <i class="bi bi-search text-white display-1"></i>
+              </div>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">凱薩沙拉</h5>
+              <p class="card-text"><small class="text-muted">Caesar Salad</small></p>
+              <p class="card-text mb-2 mt-auto">售價： NT$<span>320</span></p>
+              <a href="#" class="btn btn-text-outline-info w-100 addBtn" role="button" id="">加入購物車</a>
+            </div>
+          </div>
+        </div>
+        <div class="col saLad_switch" style="cursor: pointer;">
+          <div class="card border-0 shadow h-100">
+            <div class="overflow-hidden position-relative menuLink" style="border-radius: 10px 10px 0 0  !important;">
+              <img src="./images/img-menu/YogurtSalad.jpg" class="card-img-top object-fit-cover img-transform-scale" alt="..." style="height: 250px;">
+              <div class="all-hover-divIcons">
+                <i class="bi bi-search text-white display-1"></i>
+              </div>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">綜合季節鮮果優格沙拉</h5>
+              <p class="card-text"><small class="text-muted">Yogurt Salad</small></p>
+              <p class="card-text mb-2 mt-auto">售價： NT$<span>200</span></p>
+              <a href="#" class="btn btn-text-outline-info w-100 addBtn" role="button" id="">加入購物車</a>
+            </div>
+          </div>
+        </div>
+        <div class="col appeTlzer_switch" style="cursor: pointer;">
+          <div class="card border-0 shadow h-100">
+            <div class="overflow-hidden position-relative menuLink" style="border-radius: 10px 10px 0 0  !important;">
+              <img src="./images/img-menu/fries.jpg" class="card-img-top object-fit-cover img-transform-scale" alt="..." style="height: 250px;">
+              <div class="all-hover-divIcons">
+                <i class="bi bi-search text-white display-1"></i>
+              </div>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">酥炸薯條佐松露醬</h5>
+              <p class="card-text"><small class="text-muted">French Fries, Truffle Sauce</small></p>
+              <p class="card-text mb-2 mt-auto">售價： NT$<span>180</span></p>
+              <a href="#" class="btn btn-text-outline-info w-100 addBtn" role="button" id="">加入購物車</a>
+            </div>
+          </div>
+        </div>
+        <div class="col appeTlzer_switch" style="cursor: pointer;">
+          <div class="card border-0 shadow h-100">
+            <div class="overflow-hidden position-relative menuLink" style="border-radius: 10px 10px 0 0  !important;">
+              <img src="./images/img-menu/ShrimpCakes.jpg" class="card-img-top object-fit-cover img-transform-scale" alt="..." style="height: 250px;">
+              <div class="all-hover-divIcons">
+                <i class="bi bi-search text-white display-1"></i>
+              </div>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">酥炸鮮蝦魚餅</h5>
+              <p class="card-text"><small class="text-muted">Shrimp cakes</small></p>
+              <p class="card-text mb-2 mt-auto">售價： NT$<span>280</span></p>
+              <a href="#" class="btn btn-text-outline-info w-100 addBtn" role="button" id="">加入購物車</a>
+            </div>
+          </div>
+        </div>
+        <div class="col appeTlzer_switch" style="cursor: pointer;">
+          <div class="card border-0 shadow h-100">
+            <div class="overflow-hidden position-relative menuLink" style="border-radius: 10px 10px 0 0  !important;">
+              <img src="./images/img-menu/Stir-friedWild mushroomsAnd shrimpPlate.jpg" class="card-img-top object-fit-cover img-transform-scale" alt="..." style="height: 250px;">
+              <div class="all-hover-divIcons">
+                <i class="bi bi-search text-white display-1"></i>
+              </div>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">蒜香辣炒野菇鮮蝦盤</h5>
+              <p class="card-text"><small class="text-muted">Stir-fried wild mushrooms and shrimp plate</small></p>
+              <p class="card-text mb-2 mt-auto">售價： NT$<span>260</span></p>
+              <a href="#" class="btn btn-text-outline-info w-100 addBtn" role="button" id="">加入購物車</a>
+            </div>
+          </div>
+        </div>
+        <div class="col soUp_switch" style="cursor: pointer;">
+          <div class="card border-0 shadow h-100">
+            <div class="overflow-hidden position-relative menuLink" style="border-radius: 10px 10px 0 0  !important;">
+              <img src="./images/img-menu/tomato puree.jpg" class="card-img-top object-fit-cover img-transform-scale" alt="..." style="height: 250px;">
+              <div class="all-hover-divIcons">
+                <i class="bi bi-search text-white display-1"></i>
+              </div>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">蕃茄濃湯</h5>
+              <p class="card-text"><small class="text-muted">tomato puree</small></p>
+              <p class="card-text mb-2 mt-auto">售價： NT$<span>120</span></p>
+              <a href="#" class="btn btn-text-outline-info w-100 addBtn" role="button" id="">加入購物車</a>
+            </div>
+          </div>
+        </div>
+        <div class="col soUp_switch" style="cursor: pointer;">
+          <div class="card border-0 shadow h-100">
+            <div class="overflow-hidden position-relative menuLink" style="border-radius: 10px 10px 0 0  !important;">
+              <img src="./images/img-menu/corn soup.jpg" class="card-img-top object-fit-cover img-transform-scale" alt="..." style="height: 250px;">
+              <div class="all-hover-divIcons">
+                <i class="bi bi-search text-white display-1"></i>
+              </div>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">玉米濃湯</h5>
+              <p class="card-text"><small class="text-muted">corn soup</small></p>
+              <p class="card-text mb-2 mt-auto">售價： NT$<span>120</span></p>
+              <a href="#" class="btn btn-text-outline-info w-100 addBtn" role="button" id="">加入購物車</a>
+            </div>
+          </div>
+        </div>
+        <div class="col malnCourse_switch" style="cursor: pointer;">
+          <div class="card border-0 shadow h-100">
+            <div class="overflow-hidden position-relative menuLink" style="border-radius: 10px 10px 0 0  !important;">
+              <img src="./images/img-menu/Chargrilled Ribeye Steak.jpg" class="card-img-top object-fit-cover img-transform-scale" alt="..." style="height: 250px;">
+              <div class="all-hover-divIcons">
+                <i class="bi bi-search text-white display-1"></i>
+              </div>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">炭烤美國肋眼牛排</h5>
+              <p class="card-text"><small class="text-muted">Chargrilled Ribeye Steak</small></p>
+              <p class="card-text mb-2 mt-auto">售價： NT$<span>980</span></p>
+              <a href="#" class="btn btn-text-outline-info w-100 addBtn" role="button" id="">加入購物車</a>
+            </div>
+          </div>
+        </div>
+        <div class="col malnCourse_switch" style="cursor: pointer;">
+          <div class="card border-0 shadow h-100">
+            <div class="overflow-hidden position-relative menuLink" style="border-radius: 10px 10px 0 0  !important;">
+              <img src="./images/img-menu/Grilled Prime Tender Shoulder Steak.jpg" class="card-img-top object-fit-cover img-transform-scale" alt="..." style="height: 250px;">
+              <div class="all-hover-divIcons">
+                <i class="bi bi-search text-white display-1"></i>
+              </div>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">煎烤美國頂級嫩肩牛排</h5>
+              <p class="card-text"><small class="text-muted">Grilled American Prime Tender Shoulder Steak</small></p>
+              <p class="card-text mb-2 mt-auto">售價： NT$<span>880</span></p>
+              <a href="#" class="btn btn-text-outline-info w-100 addBtn" role="button" id="">加入購物車</a>
+            </div>
+          </div>
+        </div>
+        <div class="col malnCourse_switch" style="cursor: pointer;">
+          <div class="card border-0 shadow h-100">
+            <div class="overflow-hidden position-relative menuLink" style="border-radius: 10px 10px 0 0  !important;">
+              <img src="./images/img-menu/Grilled Chicken Steak.jpg" class="card-img-top object-fit-cover img-transform-scale" alt="..." style="height: 250px;">
+              <div class="all-hover-divIcons">
+                <i class="bi bi-search text-white display-1"></i>
+              </div>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">風香料烤雞</h5>
+              <p class="card-text"><small class="text-muted">Grilled chicken with spices</small></p>
+              <p class="card-text mb-2 mt-auto">售價： NT$<span>680</span></p>
+              <a href="#" class="btn btn-text-outline-info w-100 addBtn" role="button" id="">加入購物車</a>
+            </div>
+          </div>
+        </div>
+        <div class="col malnCourse_switch" style="cursor: pointer;">
+          <div class="card border-0 shadow h-100">
+            <div class="overflow-hidden position-relative menuLink" style="border-radius: 10px 10px 0 0  !important;">
+              <img src="./images/img-menu/Pan-fried salmon fillet with creamy white sauce.jpg" class="card-img-top object-fit-cover img-transform-scale" alt="..." style="height: 250px;">
+              <div class="all-hover-divIcons">
+                <i class="bi bi-search text-white display-1"></i>
+              </div>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">奶香白醬香煎鮭魚排</h5>
+              <p class="card-text"><small class="text-muted">Pan-fried salmon fillet with creamy white sauce</small></p>
+              <p class="card-text mb-2 mt-auto">售價： NT$<span>680</span></p>
+              <a href="#" class="btn btn-text-outline-info w-100 addBtn" role="button" id="">加入購物車</a>
+            </div>
+          </div>
+        </div>
+        <div class="col malnCourse_switch" style="cursor: pointer;">
+          <div class="card border-0 shadow h-100">
+            <div class="overflow-hidden position-relative menuLink" style="border-radius: 10px 10px 0 0  !important;">
+              <img src="./images/img-menu/Grilled Pork Ribs with Japanese Style BBQ Sauce.jpg" class="card-img-top object-fit-cover img-transform-scale" alt="..." style="height: 250px;">
+              <div class="all-hover-divIcons">
+                <i class="bi bi-search text-white display-1"></i>
+              </div>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">和風BBQ醬烤豬肋排</h5>
+              <p class="card-text"><small class="text-muted">Grilled Pork Ribs with Japanese Style BBQ Sauce</small></p>
+              <p class="card-text mb-2 mt-auto">售價： NT$<span>880</span></p>
+              <a href="#" class="btn btn-text-outline-info w-100 addBtn" role="button" id="">加入購物車</a>
+            </div>
+          </div>
+        </div>
+        <div class="col dessErt_switch" style="cursor: pointer;">
+          <div class="card border-0 shadow h-100">
+            <div class="overflow-hidden position-relative menuLink" style="border-radius: 10px 10px 0 0  !important;">
+              <img src="./images/img-menu/Apple Tart.jpg" class="card-img-top object-fit-cover img-transform-scale" alt="..." style="height: 250px;">
+              <div class="all-hover-divIcons">
+                <i class="bi bi-search text-white display-1"></i>
+              </div>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">香草慕斯蘋果派</h5>
+              <p class="card-text"><small class="text-muted">Vanilla Mousse Apple Pie</small></p>
+              <p class="card-text mb-2 mt-auto">售價： NT$<span>160</span></p>
+              <a href="#" class="btn btn-text-outline-info w-100 addBtn" role="button" id="">加入購物車</a>
+            </div>
+          </div>
+        </div>
+        <div class="col dessErt_switch" style="cursor: pointer;">
+          <div class="card border-0 shadow h-100">
+            <div class="overflow-hidden position-relative menuLink" style="border-radius: 10px 10px 0 0  !important;">
+              <img src="./images/img-menu/cheesecake.jpg" class="card-img-top object-fit-cover img-transform-scale" alt="..." style="height: 250px;">
+              <div class="all-hover-divIcons">
+                <i class="bi bi-search text-white display-1"></i>
+              </div>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">乳酪蛋糕</h5>
+              <p class="card-text"><small class="text-muted">cheesecake</small></p>
+              <p class="card-text mb-2 mt-auto">售價： NT$<span>160</span></p>
+              <a href="#" class="btn btn-text-outline-info w-100 addBtn" role="button" id="">加入購物車</a>
+            </div>
+          </div>
+        </div>
+        <div class="col dessErt_switch" style="cursor: pointer;">
+          <div class="card border-0 shadow h-100">
+            <div class="overflow-hidden position-relative menuLink" style="border-radius: 10px 10px 0 0  !important;">
+              <img src="./images/img-menu/chocolate cake.jpg" class="card-img-top object-fit-cover img-transform-scale" alt="..." style="height: 250px;">
+              <div class="all-hover-divIcons">
+                <i class="bi bi-search text-white display-1"></i>
+              </div>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">香濃巧克力蛋糕</h5>
+              <p class="card-text"><small class="text-muted">chocolate cake</small></p>
+              <p class="card-text mb-2 mt-auto">售價： NT$<span>160</span></p>
+              <a href="#" class="btn btn-text-outline-info w-100 addBtn" role="button" id="">加入購物車</a>
+            </div>
+          </div>
+        </div>
+        <div class="col dessErt_switch" style="cursor: pointer;">
+          <div class="card border-0 shadow h-100">
+            <div class="overflow-hidden position-relative menuLink" style="border-radius: 10px 10px 0 0  !important;">
+              <img src="./images/img-menu/Grilled Crispy Caramel Pudding.jpg" class="card-img-top object-fit-cover img-transform-scale" alt="..." style="height: 250px;">
+              <div class="all-hover-divIcons">
+                <i class="bi bi-search text-white display-1"></i>
+              </div>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">香烤脆皮焦糖布丁</h5>
+              <p class="card-text"><small class="text-muted">Grilled Crispy Caramel Pudding</small></p>
+              <p class="card-text mb-2 mt-auto">售價： NT$<span>160</span></p>
+              <a href="#" class="btn btn-text-outline-info w-100 addBtn" role="button" id="">加入購物車</a>
+            </div>
+          </div>
+        </div>
+        <div class="col beveRage_switch" style="cursor: pointer;">
+          <div class="card border-0 shadow h-100">
+            <div class="overflow-hidden position-relative menuLink" style="border-radius: 10px 10px 0 0  !important;">
+              <img src="./images/img-menu/Americano.jpg" class="card-img-top object-fit-cover img-transform-scale" alt="..." style="height: 250px;">
+              <div class="all-hover-divIcons">
+                <i class="bi bi-search text-white display-1"></i>
+              </div>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">美式咖啡(冰/熱)</h5>
+              <p class="card-text"><small class="text-muted">Americano</small></p>
+              <p class="card-text mb-2 mt-auto">售價： NT$<span>80</span></p>
+              <a href="#" class="btn btn-text-outline-info w-100 addBtn" role="button" id="">加入購物車</a>
+            </div>
+          </div>
+        </div>
+        <div class="col beveRage_switch" style="cursor: pointer;">
+          <div class="card border-0 shadow h-100">
+            <div class="overflow-hidden position-relative menuLink" style="border-radius: 10px 10px 0 0  !important;">
+              <img src="./images/img-menu/latte.jpg" class="card-img-top object-fit-cover img-transform-scale" alt="..." style="height: 250px;">
+              <div class="all-hover-divIcons">
+                <i class="bi bi-search text-white display-1"></i>
+              </div>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">拿鐵咖啡(冰/熱)</h5>
+              <p class="card-text"><small class="text-muted">latte</small></p>
+              <p class="card-text mb-2 mt-auto">售價： NT$<span>100</span></p>
+              <a href="#" class="btn btn-text-outline-info w-100 addBtn" role="button" id="">加入購物車</a>
+            </div>
+          </div>
+        </div>
+        <div class="col beveRage_switch" style="cursor: pointer;">
+          <div class="card border-0 shadow h-100">
+            <div class="overflow-hidden position-relative menuLink" style="border-radius: 10px 10px 0 0  !important;">
+              <img src="./images/img-menu/green tea.jpg" class="card-img-top object-fit-cover img-transform-scale" alt="..." style="height: 250px;">
+              <div class="all-hover-divIcons">
+                <i class="bi bi-search text-white display-1"></i>
+              </div>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">綠茶(冰/熱)</h5>
+              <p class="card-text"><small class="text-muted">green tea</small></p>
+              <p class="card-text mb-2 mt-auto">售價： NT$<span>60</span></p>
+              <a href="#" class="btn btn-text-outline-info w-100 addBtn" role="button" id="">加入購物車</a>
+            </div>
+          </div>
+        </div>
+        <div class="col beveRage_switch" style="cursor: pointer;">
+          <div class="card border-0 shadow h-100">
+            <div class="overflow-hidden position-relative menuLink" style="border-radius: 10px 10px 0 0  !important;">
+              <img src="./images/img-menu/black tea.jpg" class="card-img-top object-fit-cover img-transform-scale" alt="..." style="height: 250px;">
+              <div class="all-hover-divIcons">
+                <i class="bi bi-search text-white display-1"></i>
+              </div>
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">紅茶(冰/熱)</h5>
+              <p class="card-text"><small class="text-muted">black tea</small></p>
+              <p class="card-text mb-2 mt-auto">售價： NT$<span>60</span></p>
+              <a href="#" class="btn btn-text-outline-info w-100 addBtn" role="button" id="">加入購物車</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Menu link 資訊 -->
+  <section class="py-3 d-none" id="MenuLinkInformation">
+    <div class="container">
+      <div class="fs-5 mb-3">
+        <a href="#" class="link-info allProducts">全部商品</a> ／ <span>餐品名稱</span>
+      </div>
+      <div id="MenuLinkInformation_content">
+        <div class="row">
+          <div class="col-lg-6 mb-md-3">
+            <img src="./images/img-menu/Americano.jpg" alt="..." class="img-fluid object-fit-cover">
+          </div>
+          <div class="col-lg-6 pt-3 pt-md-0">
+            <h2 class="fw-bold mb-3 text-info border-bottom border-5 border-info">餐品名稱</h2>
+            <div class="p-1">
+              <p class="fs-5">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non incidunt natus perferendis, corrupti voluptatibus nulla sint quae quos repudiandae, eum autem commodi dicta. Sunt, error sed. Saepe ipsum at unde animi, reprehenderit corrupti! Fugit dicta autem incidunt, aut eum, excepturi quo asperiores ad magni, ab praesentium modi doloribus! Animi, vitae.
+              </p>
+            </div>
+            <button type="button" class="btn btn-outline-success w-50 ms-auto d-block" id="addMenuLink">加入購物車</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 產品跑馬燈 -->
+      <div class="row" id="Marquee_content">
+        <div class="swiper swiPer2 py-5">
+          <h3 class="fw-bold mb-3 text-info border-bottom border-5 border-info">買了此商品的人也買了...</h3>
+          <div class="row swiper-wrapper swiper-wrapper2 flex-nowrap">
+            <div class="col-4 p-1 shadow swiper-slide Marquee_contentJump" style="cursor: pointer;" data-ID="1">
+              <div class="row g-0">
+                <div class="col-12">
+                  <img src="./images/img-menu/YogurtSalad.jpg" class="img-fluid object-fit-cover w-100" alt="..." style="height: 320px;">
+                </div>
+                <div class="col-12">
+                  <div class="p-0 p-md-3">
+                    <h5 class="m-0 text-center">綜合季節鮮果優格沙拉</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 p-1 shadow swiper-slide Marquee_contentJump" style="cursor: pointer;" data-ID="4">
+              <div class="row g-0">
+                <div class="col-12">
+                  <img src="./images/img-menu/Stir-friedWild mushroomsAnd shrimpPlate.jpg" class="img-fluid object-fit-cover w-100" alt="..." style="height: 320px;">
+                </div>
+                <div class="col-12">
+                  <div class="p-0 p-md-3">
+                    <h5 class="m-0 text-center">蒜香辣炒野菇鮮蝦盤</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 p-1 shadow swiper-slide Marquee_contentJump" style="cursor: pointer;" data-ID="7">
+              <div class="row g-0">
+                <div class="col-12">
+                  <img src="./images/img-menu/Chargrilled Ribeye Steak.jpg" class="img-fluid object-fit-cover w-100" alt="..." style="height: 320px;">
+                </div>
+                <div class="col-12">
+                  <div class="p-0 p-md-3">
+                    <h5 class="m-0 text-center">炭烤美國肋眼牛排</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 p-1 shadow swiper-slide Marquee_contentJump" style="cursor: pointer;" data-ID="9">
+              <div class="row g-0">
+                <div class="col-12">
+                  <img src="./images/img-menu/Grilled Chicken Steak.jpg" class="img-fluid object-fit-cover w-100" alt="..." style="height: 320px;">
+                </div>
+                <div class="col-12">
+                  <div class="p-0 p-md-3">
+                    <h5 class="m-0 text-center">風香料烤雞</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 p-1 shadow swiper-slide Marquee_contentJump" style="cursor: pointer;" data-ID="10">
+              <div class="row g-0">
+                <div class="col-12">
+                  <img src="./images/img-menu/Pan-fried salmon fillet with creamy white sauce.jpg" class="img-fluid object-fit-cover w-100" alt="..." style="height: 320px;">
+                </div>
+                <div class="col-12">
+                  <div class="p-0 p-md-3">
+                    <h5 class="m-0 text-center">奶香白醬香煎鮭魚排</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 p-1 shadow swiper-slide Marquee_contentJump" style="cursor: pointer;" data-ID="15">
+              <div class="row g-0">
+                <div class="col-12">
+                  <img src="./images/img-menu/Grilled Crispy Caramel Pudding.jpg" class="img-fluid object-fit-cover w-100" alt="..." style="height: 320px;">
+                </div>
+                <div class="col-12">
+                  <div class="p-0 p-md-3">
+                    <h5 class="m-0 text-center">香烤脆皮焦糖布丁</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 前往結賬 -->
+  <section class="py-7 d-none" id="BillPlease">
+    <div class="container">
+      <!-- STEP -->
+      <div class="row">
+        <div class="col-6 col-md-3 mb-1 mb-md-0">
+          <div class="bg-info py-3 shadow">
+            <span class="text-white text-center d-block">STEP1</span>
+            <p class="text-white text-center m-0">確認購物車</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mb-1 mb-md-0">
+          <div class="shadow-sm py-3">
+            <span class="text-center d-block">STEP2</span>
+            <p class="text-center m-0">填寫訂單</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mt-1 mt-md-0">
+          <div class="shadow-sm py-3">
+            <span class="text-center d-block">STEP3</span>
+            <p class="text-center m-0">確認付款資訊</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mt-1 mt-md-0">
+          <div class="shadow-sm py-3">
+            <span class="text-center d-block">STEP4</span>
+            <p class="text-center m-0">完成訂購</p>
+          </div>
+        </div>
+      </div>
+      <h2 class="text-center my-5">
+        <i class="bi bi-cart-fill text-info me-3"></i>確認購物車內容
+      </h2>
+      <div class="row">
+        <div class="col-md-10 m-auto">
+          <!-- align-middle 僅用於 行內元素 及 table 表單使用， 區塊元素使用flex -->
+          <table class="table text-center align-middle">
+            <thead>
+              <tr>
+                <th scope="col" width="40%">商品資訊</th>
+                <th scope="col" width="35%">購買數量</th>
+                <th scope="col" width="20%">小計</th>
+                <th scope="col" width="5%">按鈕</th>
+              </tr>
+            </thead>
+            <!-- 渲染 -->
+            <tbody id="BillPlease_content">
+              <!-- <tr>
+                <td>
+                  <div class="row align-items-center">
+                    <div class="col-6 d-none d-md-block">
+                      <img src="./images/img-menu/Americano.jpg" alt="..." class="img-fluid object-fit-cover">
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <p>產品名稱</p>
+                      <span>錢錢</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex justify-content-center">
+                    <div class="input-group text-center" style="max-width: 160px;">
+                      <button type="button" class="btn text-info fs-4 px-1 px-md-3">
+                        -
+                      </button>
+                      <input type="number" class="form-control text-center w-25 px-1 px-md-2" value="1">
+                      <button type="button" class="btn text-info fs-4 px-1 px-md-3"> 
+                        +
+                      </button>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  NT$ <span>1,920</span>
+                </td>
+                <td>
+                  <button type="button" class="btn border-0 p-0">
+                    <i class="bi bi-trash-fill text-danger fs-2"></i>
+                  </button>
+                </td>
+              </tr> -->
+            </tbody>
+            <tfoot class="border-white">
+              <!-- 檢查購物車列表1 -->
+              <tr id="checkCartList1">
+                <td colspan="1">
+                    <button type="button" class="btn btn-outline-danger d-block" id="allDelete">清空購物車</button>
+                </td>
+                <td colspan="3" class="text-end  fw-bold py-4">
+                    總價: NT$ <span id="BillPlease_content_totalPrice">2,560</span>元
+                </td>
+              </tr>
+              <!-- 檢查購物車列表2 -->
+              <tr class="d-none" id="checkCartList2">
+                <td colspan="4" class="py-7 shadow-lg">
+                  <h5 class="mb-5 text-center">購物車內沒有商品，趕快去逛逛吧!</h5>
+                  <a class="btn btn-primary btn-lg" href="./westernRestaurant_4.html">立即點餐</a>
+                </td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <button type="button" class="btn btn-outline-success d-block btn-lg ms-auto" id="gofillOrder">
+            填寫訂單
+            <i class="bi bi-chevron-double-right  me-2"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 填寫訂單 -->
+  <section class="py-7 d-none" id="fillOrder">
+    <div class="container">
+      <!-- STEP -->
+      <div class="row">
+        <div class="col-6 col-md-3 mb-1 mb-md-0">
+          <div class="bg-info py-3 shadow">
+            <span class="text-white text-center d-block">STEP1</span>
+            <p class="text-white text-center m-0">確認購物車</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mb-1 mb-md-0">
+          <div class="bg-info py-3 shadow">
+            <span class="text-white text-center d-block">STEP2</span>
+            <p class="text-white text-center m-0">填寫訂單</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mt-1 mt-md-0">
+          <div class="shadow-sm py-3">
+            <span class="text-center d-block">STEP3</span>
+            <p class="text-center m-0">確認付款資訊</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mt-1 mt-md-0">
+          <div class="shadow-sm py-3">
+            <span class="text-center d-block">STEP4</span>
+            <p class="text-center m-0">完成訂購</p>
+          </div>
+        </div>
+      </div>
+      <h2 class="text-center my-5">
+        <i class="bi bi-feather text-info me-3"></i>填寫訂單資訊
+      </h2>
+      <div class="row">
+        <div class="col-md-8 m-auto">
+          <form class="row px-3 g-3 shadow needs-validation" novalidate style="border-top: 5px solid #b0d6f0; border-bottom: 8px solid #b0d6f0;">
+            <div class="col-12">
+              <label for="customerName" class="form-label">姓名</label>
+              <input type="text" class="form-control" id="customerName" placeholder="請輸入姓名" name="姓名" value="" required>
+              <div class="invalid-feedback">請正確填寫.</div>
+            </div>
+            <div class="col-12">
+              <label for="customerPhone" class="form-label">電話</label>
+              <input type="tel" class="form-control" id="customerPhone" placeholder="請輸入電話" name="電話" value="" required>
+              <div class="invalid-feedback">電話開頭必須為09或10碼</div>
+            </div>
+            <div class="col-md-4">
+              <label for="mealDate" class="form-label">日期</label>
+              <input type="date" class="form-control" id="mealDate" name="日期" value="2024-03-01" min="2024-01-01" max="2024-12-31" required>
+              <div class="invalid-feedback">選擇用餐日期</div>
+            </div>
+            <div class="col-md-8">
+              <label for="diningTime" class="form-label">用餐時間</label>
+              <select class="form-select" id="diningTime" name="用餐時間" required>
+                <option selected disabled value="">用餐時間</option>
+                <option value="11:00 ~ 13:00">11:00 ~ 13:00</option>
+                <option value="12:00 ~ 14:00">12:00 ~ 14:00</option>
+                <option value="18:00 ~ 20:00">18:00 ~ 20:00</option>
+                <option value="19:00 ~ 21:00">19:00 ~ 21:00</option>
+              </select>
+              <div class="invalid-feedback">請選擇用餐時間</div>
+            </div>
+            <div class="col-12">
+              <label for="NumberOfCustomers" class="form-label">訂位人數</label>
+              <select class="form-select" id="NumberOfCustomers" name="人數" required>
+                <option selected disabled value="">請選擇訂位人數</option>
+                <option value="1人">1人</option>
+                <option value="2人">2人</option>
+                <option value="3人">3人</option>
+                <option value="4人">4人</option>
+                <option value="5人">5人</option>
+                <option value="6人">6人以上</option>
+              </select>
+              <div class="invalid-feedback">請選擇人數</div>
+            </div>
+            <div class="col-12">
+              <label for="customerMessage" class="form-label">備註</label>
+              <textarea class="form-control" placeholder="如有需要再填寫" cols="30" rows="5" id="customerMessage" name="Remarks"  value=""></textarea>
+            </div>
+            <div class="col-12 mb-3">
+              <button type="submit" class="btn btn-outline-success d-block btn-lg m-auto" id="btnSubmit">
+                確認付款資訊
+                <i class="bi bi-chevron-double-right  me-2"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 確認付款資訊 -->
+  <section class="py-7 d-none" id="ConfirmPaymentInformation">
+    <div class="container">
+        <!-- STEP -->
+        <div class="row">
+          <div class="col-6 col-md-3 mb-1 mb-md-0">
+            <div class="bg-info py-3 shadow">
+              <span class="text-white text-center d-block">STEP1</span>
+              <p class="text-white text-center m-0">確認購物車</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 mb-1 mb-md-0">
+            <div class="bg-info py-3 shadow">
+              <span class="text-white text-center d-block">STEP2</span>
+              <p class="text-white text-center m-0">填寫訂單</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 mt-1 mt-md-0">
+            <div class="bg-info py-3 shadow">
+              <span class="text-white text-center d-block">STEP3</span>
+              <p class="text-white text-center m-0">確認付款資訊</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 mt-1 mt-md-0">
+            <div class="shadow-sm py-3">
+              <span class="text-center d-block">STEP4</span>
+              <p class="text-center m-0">完成訂購</p>
+            </div>
+          </div>
+        </div>
+        <h2 class="text-center my-5">
+          <i class="bi bi-cash-coin text-info me-3"></i>確認付款資訊
+        </h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="text-center">商品資訊</h3>
+            <!-- 渲染 -->
+            <div class="p-1 overflow-auto" id="paymentInformationRendering1" style="height: 480px;">
+              <!-- <div class="row g-0 rounded-3 mb-2" style="box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;">
+                <div class="col-6 p-2">
+                  <img src="./images/img-menu/fries.jpg" alt="..." class="img-fluid object-fit-cover rounded-3 w-100" style="height: 200px;">
+                </div>
+                <div class="col-6 d-flex align-items-center">
+                  <div class="p-3">                  
+                    <h4>商品名稱</h4>
+                    <p class="fs-5">數量: <span>1</span></p>
+                    <p class="fs-5">總價: NT$ <span>100</span></p>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+            <div class="d-flex pt-3">
+              <p class="fw-bold fs-5">總金額:NT$ <span id="paymentAmount">0</span>元</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h3 class="text-center">訂購人資訊</h3>
+            <!-- 渲染 -->
+            <div id="paymentInformationRendering2">
+              <!-- <form class="row shadow" style="border-top: 5px solid #b0d6f0; border-bottom: 8px solid #b0d6f0;">
+                <div class="col-12 mt-2">
+                  <label for="customerName" class="form-label">姓名</label>
+                  <input type="text" class="form-control" placeholder="請輸入姓名" name="姓名" value="" disabled>
+                </div>
+                <div class="col-12 mt-2">
+                  <label for="customerPhone" class="form-label">電話</label>
+                  <input type="tel" class="form-control" placeholder="請輸入電話" name="電話" value="" disabled>
+                </div>
+                <div class="col-3 mt-2">
+                  <label for="mealDate" class="form-label">日期</label>
+                  <input type="date" class="form-control" name="日期" value="2024-03-01" disabled>
+                </div>
+                <div class="col-9 mt-2">
+                  <label for="diningTime" class="form-label">用餐時間</label>
+                  <select class="form-select" id="diningTime" name="用餐時間" disabled>
+                    <option selected value="">用餐時間</option>
+                  </select>
+                </div>
+                <div class="col-12 mt-2">
+                  <label for="NumberOfCustomers" class="form-label">訂位人數</label>
+                  <select class="form-select" id="NumberOfCustomers" name="人數" disabled>
+                    <option selected value="">請選擇訂位人數</option>
+                  </select>
+                </div>
+                <div class="col-12 mt-2">
+                  <label for="customerMessage" class="form-label">備註</label>
+                  <textarea class="form-control" placeholder="如有需要再填寫" cols="30" rows="5" name="Remarks" value="" disabled></textarea>
+                </div>
+              </form> -->
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 mt-3 d-flex align-items-center">
+            <button type="submit" class="btn btn-outline-success d-block btn-lg m-auto" id="completeOrder">
+              完成訂購
+              <i class="bi bi-chevron-double-right  me-2"></i>
+            </button>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- 完成訂購 -->
+  <!--banner2 背景圖 完成訂單 -->
+  <header class="d-none" id="banner2">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 bg-attachment-fixed bg-img-cover" style="background-image: url('./images/img/banner2.jpg'); height: 850px;">
+          <div class="h-100 d-flex justify-content-center align-items-center">
+            <div>
+              <h3 class="text-white text-center mb-5">
+                <i class="bi bi-check-circle-fill text-white"></i>
+                付款成功
+              </h3>
+              <p class="text-white text-center mb-5 fs-5">完成購物並傳送簡訊至您的手機，<br>感謝您的訂購。</p>
+              <a href="./westernRestaurant_1.html" class="btn btn-lg btn-outline-light w-50 d-block m-auto" role="button">回到首頁</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 表尾 -->
+  <footer class="py-5" style="background-image: linear-gradient( 180deg, #b0d6f0, rgba(108, 199, 245, 0.752));">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 text-white d-flex align-items-center">
+          <div class="w-100">
+            <h2 class="fw-bold mb-3 pb-3 border-bottom border-3 border-white">餐廳資訊</h2>
+            <ul class="list-unstyled">
+              <li>
+                <p class="fs-5 p-2 mb-0">
+                  <i class="bi bi-house-fill me-2 text-primary"></i>
+                  餐廳地址：台中市大里區
+                </p>
+              </li>
+              <li>
+                <a href="tel:+886-2-2227336" class="fs-5 p-2 link-light text-decoration-none">
+                  <i class="bi bi-telephone-fill me-2 text-primary"></i>
+                  客服專線:0800-123-123
+                </a>
+              </li>
+              <li>
+                <p class="fs-5 p-2 m-0"><i class="bi bi-clock-fill me-2 text-primary"></i>
+                  服務時間：週一至週日
+                  <span>11:30 ~ 14:00，17:30 ~ 21:30</span>
+                </p>
+              </li>
+              <li>
+                <a href="mailto:asdfgh@gmail.com" class="fs-5 p-2 link-light text-decoration-none">
+                  <i class="bi bi-envelope-fill  me-2 text-primary"></i>
+                  客服信箱: Masyale@gmail.com
+                </a>
+              </li>
+              <li>
+                <p class="fs-5 p-2 m-0">
+                  <i class="bi bi-chat-dots-fill me-2 text-primary"></i>社群媒體:
+                  <a class="link-success me-2" href="#"><i class="bi bi-line fs-5"></i></a>
+                  <a class="link-primary me-2" href="#"><i class="bi bi-facebook fs-5"></i></a>
+                  <a class="link-dark me-2" href="#"><i class="bi bi-tiktok fs-5"></i></a>
+                  <a class="link-info me-2" href="#"><i class="bi bi-twitter fs-5"></i></a>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img src="./images/img/footer用圖.svg" alt="" class="img-fluid w-100" style="height: 300px;">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 結尾 -->
+  <p class="mb-0 py-3 bg-dark text-white text-center" id="asas">
+    Copyright ⓒ 2024 <span class="fw-bold">Jiang Yen All rights reserved.</span><br> 此網站圖片與文案皆為為練習使用，不具有商業行為
+  </p>
+
+
+
+
+
+
+
+
+  <!--ＪＱ的核心-->
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+
+  <!--Swiper的-->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+
+  <!--Lightbox的-->
+  <!-- <script src="js/lightbox-plus-jquery.min.js"></script> -->
+
+  <!--Bootstrap5 js CDN-->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script> -->
+
+  <!-- sweetalert -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <!--自己-->
+  <script src="./dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/all1.js"></script>
+  <script src="./js/all2.js"></script>
+
+
+  <script>
+    // 打字特效
+    const texts = ['菜單介紹'];
+    let count = 0;
+    let index = 0;
+    let currentText = '';
+    let letter = '';
+
+    (function type() {
+      if (count === texts.length) {
+        count = 0;
+      }
+      currentText = texts[count];
+      letter = currentText.slice(0, ++index);
+
+      document.getElementById('typing').textContent = letter;
+      if (letter.length === currentText.length) {
+        count++;
+        index = 0;
+        setTimeout(type, 1500);
+      } else {
+        setTimeout(type, 250);
+      }
+    })();
+  </script>
+
+  <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+  (function () {
+    'use strict'
+
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.querySelectorAll('.needs-validation')
+
+    // Loop over them and prevent submission
+    Array.prototype.slice.call(forms)
+      .forEach(function (form) {
+        form.addEventListener('submit', function (event) {
+          event.preventDefault()
+          if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+          }
+
+          form.classList.add('was-validated')
+        }, false)
+      })
+  })()
+  </script>
+</body>
+</html>
