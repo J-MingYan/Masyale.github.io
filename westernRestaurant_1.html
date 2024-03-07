@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/img/iocn.png">
+  <title>Masyale</title>
+
+  <meta name="description" content="為您提供營養滿分的飲食，迫不及待要大快朵頤了嗎? 請快到 Masyale 官網訂餐吧!" />
+  <meta name="keywords" content="Masyale,Masyale官網,Masyale西餐廳,Masyale菜單" />
+  <meta name="author" content="江諺" />
+
+  <meta property="og:title" content="Masyale西餐廳" />
+  <meta property="og:description" content="為您提供營養滿分的飲食，請快到 Masyale 官網訂餐吧!" />
+  <meta property="og:type" content="website" />
+  <!-- <meta property="og:url" content="https://www.XXXXXXX.com" /> -->
+  <!-- <meta property="og:image" content="https://XXX.com/XX/XX/image/XX.png" /> -->
+  <meta property="og:site-name" content="Masyale西餐廳" />
+  <meta property="og:locale" content="zh_TW" />
+
+  <!--Font Awesome的-->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> -->
+  
+  <!--Swiper的-->
+  <!-- <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  <!--Lightbox的-->
+  <!-- <link rel="stylesheet" href="css/lightbox.css"> -->
+  
+  <!--pure.css-->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous"> -->
+
+  <!--Bootstrap5 css CDN-->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"rel="stylesheet"integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
+
+  <!-- Bootstrap5 Icons CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <!-- Google Fonts 字體 -->
+
+  <!-- 自己ＣＳＳ -->
+  <link rel="stylesheet" href="./css/all-Bootstrap-Sass.css">
+  
+  <style>
+     /* :root
+        {
+        --bs-font-sans-serif: system-ui,-apple-system,'Microsoft JhengHei',微軟正黑體,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        } */
+    body
+    {
+      padding-top: 115px;
+    }
+    .swiper
+    {
+      max-width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light position-fixed w-100 top-0" style="background-color: #b0d6f0; z-index: 20;">
+    <div class="container">
+      <!-- logo -->
+      <h1 class="mb-0">
+        <a class="navbar-brand logo fw-bold fs-2 text-center me-0 " href="./westernRestaurant_1.html">Masyale</a>
+      </h1>
+
+      <!-- 漢堡按鈕 -->
+      <button class="navbar-toggler border-0 all-clos" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="all-bar"></span>
+        <span class="all-bar"></span>
+        <span class="all-bar"></span>
+      </button>
+
+      <!-- 下拉選單 -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item mx-auto p-2">
+            <a class="nav-link all-links_hover fs-5" aria-current="page" href="./westernRestaurant_3.html">經營理念</a>
+          </li>
+          <li class="nav-item mx-auto p-2">
+            <a class="nav-link all-links_hover fs-5" href="./westernRestaurant_4.html">菜單介紹</a>
+          </li>
+          <li class="nav-item mx-auto p-2">
+            <a class="nav-link all-links_hover fs-5" href="./westernRestaurant_2.html">餐廳環境</a>
+          </li>
+          <li class="nav-item mx-auto p-2">
+            <a class="nav-link all-links_hover fs-5" href="#offcanvasExample" data-bs-toggle="offcanvas" role="button" aria-controls="offcanvasExample">
+              <i class="bi bi-cart4"></i>購物車
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Offcanvas購物車 -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header text-white" style="background-color: #7bbfe1;">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">已選購餐點</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h5 class="mb-5 text-center">購物車內沒有商品，趕快去逛逛吧!</h5>
+            <a class="btn btn-info btn-lg w-100" href="./westernRestaurant_4.html">立即點餐</a>            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 首頁 swiper 背景圖 -->
+  <header>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide bg-img-cover p-3" style="background-image: url('./images/img/banner-herobanner1.jpg'); height: 800px;">
+          <div class="p-4 h-100 d-flex flex-column">
+            <div class="backdrop-filter m-auto p-4">
+              <h2 class="text-white text-center fw-bold mb-3">最佳首選</h2>
+              <p class="text-white text-center fs-5">嚴選食材</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide bg-img-cover p-3" style="background-image: url('./images/img/banner-herobanner2.jpg'); height: 800px;">
+          <div class="p-4 h-100 d-flex flex-column">
+            <div class="backdrop-filter m-auto p-4">
+              <h2 class="text-white text-center fw-bold mb-3">最佳首選</h2>
+              <p class="text-white text-center fs-5">營養美味</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide bg-img-cover p-4" style="background-image: url('./images/img/banner-herobanner3.jpg'); height: 800px;">
+          <div class="p-4 h-100 d-flex flex-column">
+            <div class="backdrop-filter m-auto p-2">
+              <h2 class="text-white text-center fw-bold mb-3">餐飲空間</h2>
+              <p class="text-white text-center fs-5">自然採光的用餐環境</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- 新鮮食材 -->
+  <section class="py-5">
+    <div style="background-color: #cdf2f9;">
+      <div class="container">
+        <div class="row p-3 p-md-0">
+          <div class="col-md-6 images-row">
+            <div class="rounded-3 overflow-hidden h-100">
+              <img src="./images/img/新鮮食材.jpg" alt="" class="img-fluid w-100 h-100 img-transform-scale">
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-center justify-content-md-center overflow-hidden">
+            <div class="mt-3 mt-md-0 all-animated-t">
+              <h2 class="fw-bold mb-3">產地直送、健康美味</h2>
+              <p class="mb-2">選用當季採收農產品，讓您品嚐到食材的最佳風味，
+                <br class="d-sm-none d-lg-block">並與在地小農建立友善契作平台，
+                <br class="d-sm-none d-lg-block">採用友善農法耕作，
+                <br class="d-sm-none d-lg-block">使大自然達到環境永續
+              </p>
+              <a class="btn btn-outline-primary" href="./westernRestaurant_3.html">查看理念 →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 餐廳環境 -->
+  <section class="py-3">
+    <div style="background-color: #cdf2f9;">
+      <div class="container">
+        <div class="row flex-row-reverse p-3 p-md-0">
+          <div class="col-md-6 images-row">
+            <div class="rounded-3 overflow-hidden h-100">
+              <img src="./images/img/餐廳室內1.jpg" alt="" class="img-fluid w-100 h-100 img-transform-scale">
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-center justify-content-md-center overflow-hidden">
+            <div class="mt-3 mt-md-0 all-animated-b">
+              <h2 class="fw-bold mb-3">餐廳、環境舒適</h2>
+              <p class="mb-2">舒適寬敞的用餐環境，絕對是您的第一首選。</p>
+              <a class="btn btn-outline-primary" href="./westernRestaurant_2.html">環境介紹 →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 顧客評價 -->
+  <section class="mt-5">
+    <div class="container">
+      <h2 class=" text-center mb-4  fw-bold">顧客評價</h2>
+      <div class="swiper swiPer ps-4 py-1">
+        <div class="row swiper-wrapper flex-nowrap">
+          <div class="col-4 p-1 shadow swiper-slide">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./images/img/顧客1.jpg" class="img-fluid object-fit-cover rounded-circle w-100 h-all-md-75" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="p-0 p-md-3">
+                  <h5 class="m-0 text-center text-md-start">Cynthia</h5>
+                  <p class="m-0  text-center text-md-start"><small class="text-muted">2024/2/13</small></p>
+                  <p class="text-center text-md-start text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </p>
+                  <p>"親切的服務，用餐過程很放鬆，環境很舒服的好地方"</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 p-1 shadow swiper-slide">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./images/img/顧客2.jpg" class="img-fluid object-fit-cover rounded-circle w-100 h-all-md-75" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="p-0 p-md-3">
+                  <h5 class="m-0 text-center text-md-start">Albert</h5>
+                  <p class="m-0  text-center text-md-start"><small class="text-muted">2024/2/15</small></p>
+                  <p class="text-center text-md-start text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </p>
+                  <p>"開胃及前菜水平都不錯 牛小排嫩度恰到好處 值得再訪"</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 p-1 shadow swiper-slide">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./images/img/顧客3.jpg" class="img-fluid object-fit-cover rounded-circle w-100 h-all-md-75" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="p-0 p-md-3">
+                  <h5 class="m-0 text-center text-md-start">Livia</h5>
+                  <p class="m-0  text-center text-md-start"><small class="text-muted">2024/2/15</small></p>
+                  <p class="text-center text-md-start text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </p>
+                  <p>"餐點好吃，用餐氣氛也不錯，服務良好，值得一訪！"</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 p-1 shadow swiper-slide">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./images/img/顧客4.jpg" class="img-fluid object-fit-cover rounded-circle w-100 h-all-md-75" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="p-0 p-md-3">
+                  <h5 class="m-0 text-center text-md-start">Laurence</h5>
+                  <p class="m-0  text-center text-md-start"><small class="text-muted">2024/2/16</small></p>
+                  <p class="text-center text-md-start text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </p>
+                  <p>"用餐體驗佳，對待小孩也很友善，服務優質！！"</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 p-1 shadow swiper-slide">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./images/img/顧客5.jpg" class="img-fluid object-fit-cover rounded-circle w-100 h-all-md-75" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="p-0 p-md-3">
+                  <h5 class="m-0 text-center text-md-start">Nicole</h5>
+                  <p class="m-0  text-center text-md-start"><small class="text-muted">2024/2/17</small></p>
+                  <p class="text-center text-md-start text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </p>
+                  <p>"用餐環境舒適，服務人員細心專業，推薦大家來"</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 p-1 shadow swiper-slide">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./images/img/顧客6.jpg" class="img-fluid object-fit-cover rounded-circle w-100 h-all-md-75" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="p-0 p-md-3">
+                  <h5 class="m-0 text-center text-md-start">Irene</h5>
+                  <p class="m-0  text-center text-md-start"><small class="text-muted">2024/2/13</small></p>
+                  <p class="text-center text-md-start text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </p>
+                  <p>"菜品十分美味，服務良好，值得再次回訪"</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 表尾 -->
+  <footer class="mt-5 py-5" style="background-image: linear-gradient( 180deg, #b0d6f0, rgba(108, 199, 245, 0.752));">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 text-white d-flex align-items-center">
+          <div class="w-100">
+            <h2 class="fw-bold mb-3 pb-3 border-bottom border-3 border-white">餐廳資訊</h2>
+            <ul class="list-unstyled">
+              <li>
+                <p class="fs-5 p-2 mb-0">
+                  <i class="bi bi-house-fill me-2 text-primary"></i>
+                  餐廳地址：台中市大里區
+                </p>
+              </li>
+              <li>
+                <a href="tel:+886-2-2227336" class="fs-5 p-2 link-light text-decoration-none">
+                  <i class="bi bi-telephone-fill me-2 text-primary"></i>
+                  客服專線:0800-123-123
+                </a>
+              </li>
+              <li>
+                <p class="fs-5 p-2 m-0"><i class="bi bi-clock-fill me-2 text-primary"></i>
+                  服務時間：週一至週日
+                  <span>11:30 ~ 14:00，17:30 ~ 21:30</span>
+                </p>
+              </li>
+              <li>
+                <a href="mailto:asdfgh@gmail.com" class="fs-5 p-2 link-light text-decoration-none">
+                  <i class="bi bi-envelope-fill  me-2 text-primary"></i>
+                  客服信箱: Masyale@gmail.com
+                </a>
+              </li>
+              <li>
+                <p class="fs-5 p-2 m-0">
+                  <i class="bi bi-chat-dots-fill me-2 text-primary"></i>社群媒體:
+                  <a class="link-success me-2" href="#"><i class="bi bi-line fs-5"></i></a>
+                  <a class="link-primary me-2" href="#"><i class="bi bi-facebook fs-5"></i></a>
+                  <a class="link-dark me-2" href="#"><i class="bi bi-tiktok fs-5"></i></a>
+                  <a class="link-info me-2" href="#"><i class="bi bi-twitter fs-5"></i></a>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img src="./images/img/footer用圖.svg" alt="" class="img-fluid w-100" style="height: 300px;">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 結尾 -->
+    <p class="mb-0 py-3 bg-dark text-white text-center">
+      Copyright ⓒ 2024 <span class="fw-bold">Jiang Yen All rights reserved.</span><br> 此網站圖片與文案皆為為練習使用，不具有商業行為
+    </p>
+
+
+
+
+
+
+
+
+  <!--ＪＱ的核心-->
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+  <!--Swiper的-->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!--Lightbox的-->
+  <!-- <script src="js/lightbox-plus-jquery.min.js"></script> -->
+
+  <!--Bootstrap5 js CDN-->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script> -->
+
+  <!--自己-->
+  <script src="./dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/all1.js"></script>
+</body>
+</html>
