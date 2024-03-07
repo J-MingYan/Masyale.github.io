@@ -2,14 +2,6 @@
 ## 次標題 <h2> tag
 ###### 小標題字 <h6> tag
 **粗體**
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-- [x] This is a complete item
-- [ ] This is an incomplete item
 
-啦啦啦
-啦啦啦
-啦啦啦
-啦啦啦
+**This text will be bold**  
+__This will also be bold__
