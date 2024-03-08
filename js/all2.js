@@ -852,6 +852,8 @@ goBillPlease.addEventListener('click', function(e){
   MenuLinkInformation.classList.add('d-none');
   ConfirmPaymentInformation.classList.add('d-none');
   BillPlease.classList.remove('d-none');
+  // 前往結賬按鈕關閉 導覽列
+  navbarSupportedContent.classList.remove('show');
   // 檢查購物車列表事件
   checkCartList2.classList.add('d-none');
   // 關閉填寫表單頁
