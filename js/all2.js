@@ -1320,11 +1320,11 @@ function paymentInformationRendering_2(){
           <label for="customerPhone" class="form-label">電話</label>
           <input type="tel" class="form-control" placeholder="請輸入電話" name="電話" value="${CustomerInformation[i].Phone}" disabled>
         </div>
-        <div class="col-md-4 mt-3">
+        <div class="col-md-5 mt-3">
           <label for="mealDate" class="form-label">日期</label>
           <input type="date" class="form-control" name="日期" value="${CustomerInformation[i].Date}" disabled>
         </div>
-        <div class="col-md-8 mt-3">
+        <div class="col-md-7 mt-3">
           <label for="diningTime" class="form-label">用餐時間</label>
           <select class="form-select" id="diningTime" name="用餐時間" disabled>
             <option selected value="">${CustomerInformation[i].Time}</option>
