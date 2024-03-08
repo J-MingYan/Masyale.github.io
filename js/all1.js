@@ -17,7 +17,7 @@ $(document).ready(function(){
     // console.log(scrollPos, windowHeight);
     
     // bg scroll 
-    $('#profiles').css('background-position-y', -(scrollPos / 2) + 'px');
+    $('#profiles').css('background-position-y', (scrollPos / 2) + 'px');
 
     // animated－左邊進
     $('.all-animated-s').each(function(){
