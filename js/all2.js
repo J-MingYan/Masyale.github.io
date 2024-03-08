@@ -787,6 +787,8 @@ MenuLinkInformation.addEventListener('click', function(e){
 
 
 
+// 導覽列裡漢堡
+const allClos =document.querySelector('.all-clos');
 
 // 購物車裡的 前往結賬結賬 按鈕
 const goBillPlease = document.getElementById('goBillPlease');
@@ -854,6 +856,8 @@ goBillPlease.addEventListener('click', function(e){
   BillPlease.classList.remove('d-none');
   // 前往結賬按鈕關閉 導覽列
   navbarSupportedContent.classList.remove('show');
+  // 恢復漢堡
+  allClos.classList.remove('act');
   // 檢查購物車列表事件
   checkCartList2.classList.add('d-none');
   // 關閉填寫表單頁
