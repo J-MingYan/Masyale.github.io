@@ -18,6 +18,8 @@ $(document).ready(function(){
     
     // bg scroll 
     $('#profiles').css('background-position-y', (scrollPos / 2) + 'px');
+    // bg scroll 
+    $('#profiles2').css('background-position-y', (scrollPos / 2) + 'px');
 
     // animated－左邊進
     $('.all-animated-s').each(function(){
