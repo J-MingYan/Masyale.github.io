@@ -137,7 +137,7 @@ $(document).ready(function () {
     // slidesPerView: "auto",
     // allowTouchMove: false,
     // speed: 8000,
-    spaceBetween: 30,
+    spaceBetween: 0,
     centeredSlides: true,
     loop: true,
     autoplay: {
