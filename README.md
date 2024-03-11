@@ -1,11 +1,21 @@
 # Masyale <h1> tag
 ## 使用技術 <h2> tag
-###### 使用技術 <h6> tag
-**粗體**
+* JavaScript
+* jquery
+* Bootstrap
+* RWD
+* SCSS 
+
+## 使用插件 <h2> tag
+* Swiper
+* sweet alert
+
+## 網頁介紹 <h2> tag
+
 
 **This text will be bold**  
 __This will also be bold__
 
 
-## Links
-網址連結 [作品連結](https://j-mingyan.github.io/Masyale.github.io/westernRestaurant_1.html).
+## 作品連結
+[網址連結](https://j-mingyan.github.io/Masyale.github.io/westernRestaurant_1.html).
