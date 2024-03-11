@@ -16,7 +16,7 @@ __This will also be bold__
 
 
 ## 作品連結
-[網址連結](https://j-mingyan.github.io/Masyale.github.io/westernRestaurant_1.html).
+歡迎至網站觀看：[網址連結](https://j-mingyan.github.io/Masyale.github.io/westernRestaurant_1.html).
 
 
 ## 版權/授權聲明
