@@ -1,16 +1,13 @@
 # Masyale <h1>
-
 ## 使用技術 <h2>
 * JavaScript
 * jquery
 * Bootstrap
 * RWD
 * SCSS 
-
 ## 使用插件 <h2>
-* Swiper
-* sweet alert
-
+* [Swiper](https://swiperjs.com).
+* [sweet alert](https://sweetalert2.github.io/#download).
 ## 網頁介紹 <h2>
 
 
