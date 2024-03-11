@@ -1,5 +1,5 @@
 # Masyale <h1>
-![This is an alt text.]([/image/sample.webp](https://j-mingyan.github.io/Masyale.github.io/images/OfficialPictures.png) "官方圖片")
+![GITHUB]([/image/sample.webp](https://j-mingyan.github.io/Masyale.github.io/images/OfficialPictures.png) "官方圖片")
 
 ## 使用技術
 * JavaScript
