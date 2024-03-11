@@ -15,7 +15,7 @@
 __This will also be bold__
 
 ## Images
-![This is an alt text.]([./images/img/iocn.png](https://j-mingyan.github.io/Masyale.github.io/images/img/新鮮食材.jpg)")
+![This is an alt text.](https://j-mingyan.github.io/Masyale.github.io/images/img/新鮮食材.jpg)")
 
 ## 作品連結
 [網址連結](https://j-mingyan.github.io/Masyale.github.io/westernRestaurant_1.html).
