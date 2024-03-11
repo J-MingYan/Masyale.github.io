@@ -3,7 +3,7 @@
 * JavaScript
 * jquery
 * Bootstrap
-* RWD
+* Responsive Web Design
 * SCSS 
 ## 使用插件
 * [Swiper](https://swiperjs.com).
