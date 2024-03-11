@@ -14,6 +14,8 @@
 **This text will be bold**  
 __This will also be bold__
 
+## Images
+![This is an alt text.](/image/sample.webp "This is a sample image.")
 
 ## 作品連結
 [網址連結](https://j-mingyan.github.io/Masyale.github.io/westernRestaurant_1.html).
