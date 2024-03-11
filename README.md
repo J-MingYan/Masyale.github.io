@@ -4,7 +4,6 @@
 * jquery
 * Bootstrap
 * Responsive Web Design
-* SCSS 
 ## 使用插件
 * [Swiper](https://swiperjs.com).
 * [sweet alert](https://sweetalert2.github.io/#download).
