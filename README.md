@@ -17,3 +17,7 @@ __This will also be bold__
 
 ## 作品連結
 [網址連結](https://j-mingyan.github.io/Masyale.github.io/westernRestaurant_1.html).
+
+
+## 版權/授權聲明
+**本作品內的圖片與內容，純粹為個人練習前端使用，不做任何商業用途。**
