@@ -1,16 +1,17 @@
-# Masyale <h1> tag
-## 使用技術 <h2> tag
+# Masyale <h1>
+
+## 使用技術 <h2>
 * JavaScript
 * jquery
 * Bootstrap
 * RWD
 * SCSS 
 
-## 使用插件 <h2> tag
+## 使用插件 <h2>
 * Swiper
 * sweet alert
 
-## 網頁介紹 <h2> tag
+## 網頁介紹 <h2>
 
 
 **This text will be bold**  
